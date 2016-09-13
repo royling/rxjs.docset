@@ -1,0 +1,15 @@
+{
+  "name": "rxjs.docset",
+  "version": "0.0.1",
+  "description": "Dash docset for Rxjs 5",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Roy Ling <royling0024@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sequelize": "^3.24.3",
+    "sqlite3": "^3.1.4"
+  }
+}
