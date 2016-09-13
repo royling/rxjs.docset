@@ -9,5 +9,9 @@ Dash docset for [rxjs](https://github.com/ReactiveX/rxjs)
 # Requirements
 - node v6+
 
+# Credit
+- Inspired by [D3 docset generator](https://github.com/exlee/d3-dash-gen)
+- Awesome documentation work from rxjs
+
 # License
 MIT
