@@ -1,6 +1,6 @@
 {
   "name": "rxjs.docset",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Dash docset for Rxjs 5",
   "main": "index.js",
   "scripts": {
