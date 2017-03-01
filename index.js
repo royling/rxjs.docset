@@ -31,7 +31,7 @@ rl.on('line', line => {
     }
 });
 
-
+// TODO: clean up
 let rlObs = readline.createInterface({
     input: fs.createReadStream(obsPath),
     terminal: false
