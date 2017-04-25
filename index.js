@@ -71,4 +71,12 @@ let SearchIndex = seq.define('searchIndex', {
     freezeTableName: true,
     timestamps: false
 });
-SearchIndex.sync().then(() => objects.map(item => SearchIndex.build(item).save()));
+
+function finish(emitter) {
+  return new Promise((res) => emitter.on('close', res))
+}
+
+Promise.all([rl, rlObs].map(finish))
+.then(() => SearchIndex.sync())
+.then(() => objects.map(item => SearchIndex.build(item).save()));
+
